@@ -1,33 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* styles/Home.module.css */
+.container {
+  /* Add your styles here */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.chevron {
+  /* Add chevron styles here */
+  border-color: black;
+  border-style: solid;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+  transform: rotate(45deg);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.arrowContainer {
+  /* Add styles for the arrow container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.box {
+  /* Add styles for the box */
 }
